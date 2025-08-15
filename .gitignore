@@ -6,6 +6,12 @@
 !.config/*
 !.config/nvim/
 !.config/nvim/*
+!.config/nvim/lua/
+!.config/nvim/lua/*
+!.config/nvim/lua/core/
+!.config/nvim/lua/core/*
+!.config/nvim/lua/plugins/
+!.config/nvim/lua/plugins/*
 !.config/wezterm/
 !.config/wezterm/*
 !.zshrc
