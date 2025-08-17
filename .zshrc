@@ -18,6 +18,6 @@ zstyle ':vcs_info:*' unstagedstr ' !'
 
 precmd() {
 	vcs_info
-	print -P '%B~%b ${vcs_info_msg_0_}'
+	print -P '%B%~%b ${vcs_info_msg_0_}'
 }
 PROMPT='%B%(!.#.$)%b '
