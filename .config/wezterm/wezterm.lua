@@ -7,7 +7,7 @@ config.initial_rows = 60
 config.color_scheme = 'Apple Classic'
 
 -- font
-config.font_size = 15
+config.font_size = 18
 config.font = wezterm.font('DepartureMono Nerd Font')
 
 return config

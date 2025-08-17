@@ -1,9 +1,8 @@
 return {
-	"zenbones-theme/zenbones.nvim",
+	'ring0-rootkit/ring0-dark.nvim',
 	lazy = false,
 	priority = 1000,
 	config = function() 
-		vim.g.zenbones_compat = 1
-		vim.cmd.colorscheme 'zenbones'
+		vim.cmd.colorscheme 'ring0dark'
 	end
 }
