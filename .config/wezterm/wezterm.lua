@@ -5,6 +5,7 @@ local config = wezterm.config_builder()
 config.initial_cols = 220
 config.initial_rows = 60
 config.color_scheme = 'Apple Classic'
+config.enable_tab_bar = false
 
 -- font
 config.font_size = 18
