@@ -15,3 +15,4 @@
 !.config/wezterm/
 !.config/wezterm/*
 !.zshrc
+!.tmux.conf
