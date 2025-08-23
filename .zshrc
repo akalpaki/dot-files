@@ -1,5 +1,8 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
+eval "$(fnm env --use-on-cd --shell zsh)"
 
+#Path
+PATH=$PATH:/${HOME}/go/bin
 
 #Alias
 alias vim=nvim
