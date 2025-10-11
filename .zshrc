@@ -1,8 +1,13 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(fnm env --use-on-cd --shell zsh)"
 
+#Environment
+JAVA_HOME="/opt/homebrew/opt/openjdk"
+
 #Path
 PATH=$PATH:/${HOME}/go/bin
+PATH=$PATH:/opt/homebrew/opt/libpq/bin
+PATH=$PATH:/opt/homebrew/opt/openjdk/bin
 
 #Alias
 alias vim=nvim
